@@ -15,8 +15,8 @@
  * WOUNDS: 1.25
  * WNAKED: 5.6
  */
-/
-//obj/item/projectile/bullet/c22
+
+/obj/item/projectile/bullet/c22
 	name = ".22lr bullet"
 	damage = BULLET_DAMAGE_PISTOL_22
 	stamina = BULLET_STAMINA_PISTOL_22
@@ -29,7 +29,7 @@
 	
 	pixels_per_second = BULLET_SPEED_PISTOL_22
 	damage_falloff = BULLET_FALLOFF_DEFAULT_PISTOL_LIGHT
-/
+
 /* .22 rubber
  * DAMAGE: 1.5
  * STAMIN: 30
@@ -37,7 +37,7 @@
  * WOUNDS: 1.25
  * WNAKED: 3.75
  */
-//obj/item/projectile/bullet/c22/rubber
+/obj/item/projectile/bullet/c22/rubber
 	name = ".22lr rubber bullet"
 	damage = RUBBERY_DAMAGE_PISTOL_22
 	stamina = RUBBERY_STAMINA_PISTOL_22
@@ -53,7 +53,7 @@
 	
 	sharpness = SHARP_NONE
 	zone_accuracy_type = ZONE_WEIGHT_PRECISION // Rubbers go where you want
-/
+
 /* .22 EMP
  * DAMAGE: 0.75
  * STAMIN: 15
@@ -61,7 +61,7 @@
  * WOUNDS: 1.25
  * WNAKED: 0
  */
-//obj/item/projectile/bullet/c22/shock
+/obj/item/projectile/bullet/c22/shock
 	name = ".22lr shock bullet"
 	damage = BULLET_DAMAGE_PISTOL_22 * BULLET_DAMAGE_SHOCK
 	stamina = BULLET_STAMINA_PISTOL_22 * BULLET_STAMINA_SHOCK
@@ -81,7 +81,7 @@
 /obj/item/projectile/bullet/c22/shock/on_hit(atom/target, blocked = FALSE)
 	..()
 	target.emp_act(15)//5 severity is very, very low
-/
+
 //////////
 // 9 MM //
 //////////
@@ -100,7 +100,7 @@
  * WOUNDS: 5
  * WNAKED: 3.75
  */
-//obj/item/projectile/bullet/c9mm
+/obj/item/projectile/bullet/c9mm
 	name = "9mm FMJ bullet"
 	damage = BULLET_DAMAGE_PISTOL_9MM
 	stamina = BULLET_STAMINA_PISTOL_9MM
@@ -113,7 +113,7 @@
 	
 	pixels_per_second = BULLET_SPEED_PISTOL_9MM
 	damage_falloff = BULLET_FALLOFF_DEFAULT_PISTOL_LIGHT
-/
+
 /* 9mm handload
  * DAMAGE: 15
  * STAMIN: 7.5
