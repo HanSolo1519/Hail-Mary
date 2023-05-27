@@ -16,7 +16,7 @@
  * WNAKED: 5.6
  */
 
-/obj/item/projectile/bullet/c22
+//obj/item/projectile/bullet/c22
 	name = ".22lr bullet"
 	damage = BULLET_DAMAGE_PISTOL_22
 	stamina = BULLET_STAMINA_PISTOL_22
@@ -1247,4 +1247,4 @@ SOPORIFIC ROUND CODE
 // BETA STUFF // Obsolete
 /obj/item/projectile/bullet/test
 	name = "testing bullet"
-	damage = 0
+	damage = 0/
